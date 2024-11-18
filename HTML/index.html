@@ -5,9 +5,12 @@
     <link rel="stylesheet" href="style1.css" />
   </head>
   <body>
-    <div><p>College XYZ Welcome's You</p></div>
-    <div><img src="../Assets/Logo/srmslogo.jpeg" alt="Logo" /></div>
-    <div>
+    <div id="Heading"><p>College XYZ Welcome's You</p></div>
+
+    <div id="content">
+      <div id="srmslogo">
+        <img id="Logo" src="../Asset.Css/logoTransparent.png" alt="Logo" />
+      </div>
       <form>
         <label for="Firstname">First Name </label>
         <input
@@ -50,6 +53,14 @@
           required
           name="confpassword"
         />
+
+        <input type="button" value="SignUp" name="Sign Up" />
+
+        <input type="button" value="LogIn" name="Log In" />
+
+        <a href="#" id="Forgetpsswrd" title="Forget ?" target="_self"
+          >Forget Password</a
+        >
       </form>
     </div>
   </body>
