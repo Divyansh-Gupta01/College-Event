@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#Heading {
+  text-align: center;
+  margin: 50px 0px 100px 0px;
+}
+#Logo {
+  width: 200px;
+  background-blend-mode: multiply;
+}
+#srmslogo {
+  text-align: center;
+}
+#Forgetpsswrd {
+  text-decoration: none;
+  color: cornflowerblue;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background-image: url(../Asset.Css/css-pattern-by-magicpattern\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
