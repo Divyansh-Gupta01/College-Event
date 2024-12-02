@@ -138,5 +138,5 @@ input:focus {
 }
 
 #Forgetpsswrd:hover {
-  text-shadow: 0px 0px 1px rgb(41, 58, 116);
+  text-shadow: 0px 0px 0.5px rgb(41, 58, 116);
 }
